@@ -1,0 +1,93 @@
+.change {
+    background-image: url(/img/changeback1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 128px;
+    }
+
+    &__main {
+        padding-left: 128px;
+    }
+
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 92px;
+        letter-spacing: 4.8px;
+        color: #000000;
+        padding: 90px 0;
+    }
+
+    &__text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+    }
+
+    &__text-two {
+        padding-top: 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+    }
+
+    &__text-three {
+        padding-top: 22px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+    }
+
+    &__btns {
+        margin-top: 48px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        color: #000000;
+        height: 48px;
+        width: 237px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #FFCEE0;
+        padding-right: 24px;
+
+        button {
+            background: #FF4B4B;
+            border-radius: 4px;
+            height: 48px;
+            width: 48px;
+            border: 0;
+        }
+
+        button:active {
+            box-shadow: inset 0 0 15px rgb(0, 85, 25);
+            margin: 1px;
+        }
+
+        button:hover {
+            background-color: #00ff2f;
+            color: yellow;
+        }
+    }
+}

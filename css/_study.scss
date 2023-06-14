@@ -1,0 +1,76 @@
+.study {
+    background-image: url(/img/studybackgr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+
+    &__content {
+        display: flex;
+        padding-top: 96px;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 70px;
+        letter-spacing: 1.28px;
+        color: #000000;
+        max-width: 474px;
+    }
+
+    &__text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+        max-width: 483px;
+        padding-top: 34px;
+    }
+
+    &__btns {
+        margin-top: 46px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        color: #000000;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #E6BFFF;
+        padding-right: 24px;
+        height: 48px;
+        width: 198px;
+        margin-bottom: 95px;
+
+        button {
+            background: #BE53FF;
+            border-radius: 4px;
+            height: 48px;
+            width: 48px;
+            border: 0;
+        }
+
+        button:active {
+            box-shadow: inset 0 0 15px rgb(0, 85, 25);
+            margin: 1px;
+        }
+
+        button:hover {
+            background-color: #00ff2f;
+            color: yellow;
+        }
+    }
+
+    &__img {
+        display: flex;
+        align-items: flex-end;
+    }
+}

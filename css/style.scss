@@ -1,0 +1,415 @@
+@import "_navbar";
+@import "_work";
+@import "_place";
+@import "_change";
+@import "_idea";
+@import "_desk";
+@import "_kind";
+@import "_mural";
+@import "_study";
+@import "_leading";
+@import "_start";
+@import "_product";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 400px) {
+    .navbar {
+        display: none;
+    }
+
+    .work {
+        &__content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__title {
+            width: 100%;
+            font-size: 30px;
+            text-align: center;
+            margin-left: 50px;
+        }
+
+        &__text {
+            text-align: center;
+            margin-left: 50px;
+            font-size: 15px;
+            width: 100%;
+        }
+
+        &__img {
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        &__btns {
+            text-align: center;
+            margin-left: 50px;
+        }
+    }
+
+    .place {
+        background-image: url(/img/placebackgr.png);
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &__text-one {
+            width: 100%;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        &__text-two {
+            width: 100%;
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+
+    .change {
+        background-image: url(/img/changeback1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 30px;
+        }
+
+        &__title {
+            width: 100%;
+            font-size: 37px;
+            text-align: center;
+            padding: 0;
+        }
+
+        &__main {
+            padding-left: 0;
+        }
+
+        &__img {
+            img {
+                width: 100%;
+                padding-top: 0;
+            }
+        }
+
+        &__text {
+            padding-top: 30px;
+            text-align: center;
+            width: 100%;
+            font-size: 20px;
+        }
+
+        &__text-two {
+            text-align: center;
+            width: 100%;
+            font-size: 20px;
+        }
+
+        &__text-three {
+            text-align: center;
+            width: 100%;
+            font-size: 20px;
+        }
+
+        &__btns {
+            margin-left: 50px;
+        }
+    }
+
+    .idea {
+        background-image: url(/img/ideabackgr.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 10px;
+        text-align: center;
+
+        &__header-title {
+            font-size: 20px;
+        }
+
+        &__title {
+            margin-top: 10px;
+            display: flex;
+            justify-content: start;
+
+            img {
+                width: 30px;
+                height: 30px;
+                margin-left: 20px;
+            }
+
+            p {
+                font-size: 15px;
+                padding-left: 50px;
+            }
+        }
+
+        &__content {
+            margin-top: 10px;
+            background-image: url(/img/ideablackgr.png);
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 20px;
+
+            img {
+                margin-top: 10px;
+                width: 250px;
+                text-align: center;
+            }
+        }
+
+        &__text {
+            display: flex;
+            justify-content: start;
+            padding-left: 25px;
+        }
+
+        &__body-title {
+            text-align: center;
+            display: flex;
+            justify-content: start;
+            padding-left: 55px;
+        }
+
+        &__head {
+            display: flex;
+            justify-content: start;
+            padding-left: 60px;
+        }
+
+        &__team {
+            display: flex;
+
+            p {
+                font-size: 40px;
+            }
+        }
+
+        &__last {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 50px;
+        }
+    }
+
+    .desk {
+        &__content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__img {
+            img {
+                padding: 40px 40px;
+            }
+        }
+
+        &__ability {
+            background-image: url(/img/deskbackgr.png);
+            background-repeat: no-repeat;
+            height: auto;
+        }
+
+        &__text {
+            font-size: 16px;
+        }
+
+        &__safe {
+            display: flex;
+            align-items: center;
+            background-color: black;
+
+            span {
+                text-align: start;
+                font-size: 19px;
+                padding-left: 5px;
+            }
+        }
+    }
+
+    .kind {
+        background-image: url(/img/kindbackimg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: auto;
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__title {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        &__img {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding-top: 30px;
+        }
+
+        &__text {
+            text-align: center;
+            padding-left: 50px;
+        }
+
+        &__tech {
+            display: flex;
+            justify-content: center;
+            padding-top: 30px;
+            padding-left: 70px;
+        }
+    }
+
+    .mural {
+        &__main {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__img {
+            img {
+                width: 100%;
+            }
+        }
+
+        &__text {
+            font-size: 12px;
+        }
+
+        &__link {
+            font-size: 10px;
+        }
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__btns {
+            width: 300px;
+        }
+
+        &__align-text {
+            // padding-left: 100px;
+            width: 100%;
+        }
+
+        &__luma {
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .leading {
+        &__text {
+            max-width: 400px;
+            font-size: 32px;
+        }
+
+        .mural__align-text {
+            padding-left: 80px;
+        }
+    }
+
+    .study {
+        background-image: url(/img/studybackgr.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: auto;
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__text {
+            font-size: 15px;
+        }
+
+        &__img {
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .start {
+        background-image: url(/img/startbackgr.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: auto;
+
+        &__head {
+            padding-top: 100px;
+            width: 100%;
+        }
+
+        &__btns {
+
+            text-align: start;
+            button {
+                height: 875px;
+                width: 100%;
+                margin-left: 0;
+                font-size: 70px;
+            }
+        }
+    }
+
+    .product {
+        &__main {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__privacy {
+            display: flex;
+            flex-direction: column;
+        }
+
+        p {
+            padding-top: 40px;
+        }
+    }
+}

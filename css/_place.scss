@@ -1,0 +1,27 @@
+.place {
+    background-image: url(/img/placebackgr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 95px 0;
+
+    &__text-one {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: 1.2px;
+        color: #FFFFFF;
+    }
+
+    &__text-two {
+        margin-top: 48px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: 1.2px;
+        color: #FFFFFF;
+    }
+}

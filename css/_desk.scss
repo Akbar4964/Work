@@ -1,0 +1,57 @@
+.desk {
+    background-color: #fff;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__ability {
+        background-image: url(/img/deskbackgr.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+    }
+
+    &__text {
+        padding-top: 52px;
+        max-width: 490px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: 0.96px;
+        color: #000000;
+        text-align: justify;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    &__img {
+        img {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 90px 90px;
+        }
+    }
+
+    &__safe {
+        display: flex;
+        align-items: center;
+        background-color: #000;
+
+        span {
+            text-align: center;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 30px;
+            color: #FFFFFF;
+            padding-left: 32px;
+        }
+    }
+}

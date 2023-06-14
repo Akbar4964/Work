@@ -1,0 +1,68 @@
+.navbar {
+    height: 96px;
+    background-color: #fff;
+    
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__menu {
+        display: flex;
+        align-items: center;
+        line-height: 96px;
+
+        li {
+            padding: 0 60px;
+        }
+
+        a {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 16px;
+            color: #000000;
+        }
+    }
+
+    &__btns {
+        a {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 16px;
+            color: #000000;
+            padding-right: 32px;
+        }
+
+        button {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 27px;
+            color: #FFFFFF;
+            height: 48px;
+            width: 202px;
+            border-radius: 4px;
+            background: #424242;
+            border: 0;
+            transition: 0.1s;
+            cursor: grab;
+        }
+
+        button:active {
+            box-shadow: inset 0 0 15px rgb(0, 85, 25);
+            margin: 1px;
+        }
+
+        button:hover {
+            background-color: #00ff2f;
+            color: yellow;
+        }
+    }
+}

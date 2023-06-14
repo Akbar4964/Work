@@ -1,0 +1,46 @@
+.start {
+    background-image: url(/img/startbackgr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 192px;
+
+    &__head {
+        padding-top: 189px;
+        height: 36px;
+        width: 355px;
+        margin: 0 auto;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 35px;
+        text-align: center;
+        letter-spacing: 0.64px;
+        color: #000000;
+    }
+
+    &__btns {
+        padding-top: 98px;
+
+        button {
+            height: 371px;
+            width: 875px;
+            border-radius: 18px;
+            margin-left: 163px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 103px;
+            line-height: 195px;
+            letter-spacing: 6.5px;
+            color: #000000;
+            background: #FFE146;
+            border-left-color: #000000;
+            border-left-width: 40px;
+            border-top: 0;
+            border-right: 0;
+            border-bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+.kind {
+    background-image: url(/img/kindbackimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+
+    &__img {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 622px;
+        padding-top: 114px;
+
+        p {
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-color: orange;
+            width: 100%;
+        }
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 90px;
+    }
+
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 70px;
+        letter-spacing: 1.28px;
+        color: #000000;
+    }
+
+    &__text {
+        max-width: 306px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+    }
+
+    &__tech {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 622px;
+        padding-top: 94px;
+
+        p {
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-color: orange;
+            width: 100%;
+        }
+    }
+
+    &__team {
+        padding-top: 115px;
+    }
+
+    &__sales {
+        padding-top: 98px;
+        padding-right: 79px;
+    }
+}
